@@ -126,7 +126,9 @@ After giving a rating, the average will be shown on the same pop up.
   - Enzyme
   
   
+
 ###To run tests
+
  ```
  npm test
  ```
@@ -142,12 +144,15 @@ After giving a rating, the average will be shown on the same pop up.
  
  
 ##Future Improvements
+
  More testing especially the behavioural aspect of the UI.
  
  
 ## Screenshots
 
 ![alt text](screenshots/browsepage.png "Browsing Page") 
+
+![alt text](screenshots/movieplaying.png "Movie Playing Page") 
  
 ## Author
 
