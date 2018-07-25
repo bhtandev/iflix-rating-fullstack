@@ -147,7 +147,7 @@ After giving a rating, the average will be shown on the same pop up.
  
 ## Screenshots
 
-![alt text](screenshots/iflixLogoMain.png "Browsing Page") 
+![alt text](screenshots/browsepage.png "Browsing Page") 
  
 ## Author
 
