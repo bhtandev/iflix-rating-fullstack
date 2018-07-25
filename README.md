@@ -1,14 +1,9 @@
 # iflix fullstack
 
-- [iflix fullstack](#iflix fullstack)
   - [Quick Start](#quick-start)
   - [Back End](#back-end)
   - [Front End](#front-end)
 
-
-### Development mode
-
-In the development mode, we will have 2 servers running. The front end code will be served by the [webpack dev server](https://webpack.js.org/configuration/dev-server/) which helps with hot and live reloading. The server side Express code will be served by a node server using [nodemon](https://nodemon.io/) which helps in automatically restarting the server whenever server side code changes.
 
 ## Dependencies
 
@@ -21,7 +16,7 @@ Node 8.2.1
 git clone 
 
 # Go inside the directory
-cd iflix-fullstack
+cd iflix-rating-fullstack
 
 # Install dependencies
 npm install
@@ -46,8 +41,6 @@ Console should read like this:
 npm run client
 ```
 
-## Documentation
-
 
 
 ## Back End
@@ -58,27 +51,44 @@ npm run client
  - Express
 
 
-`mongodb-memory-server` is to quickly spin up a actual/real MongoDB Server programmatically from node for testing and demonstration purpose. 
-For production a full scale MongoDB will be used instead. 
+`mongodb-memory-server` is used to quickly spin up a actual/real MongoDB Server programmatically from node for testing and demonstration purpose. 
+For production, a full scale MongoDB will be used instead. 
 
-Fake data will be seeded for complete demonstration. 
+Fake data is be seeded for demonstration purposes. 
 
 
 ### Design
 
-Basically we have 3 models, the User, the Content and the Rating. Each model has their associated RESTful API to consume them.
+Basically there are 3 models, the User, the Content and the Rating. Data of each model are consumed from the following API endpoints below.
 
 #### API Endpoints
 ```
-GET /api/v1/users/
-GET /api/v1/users/[userId]
-GET /api/v1/contents/
-GET /api/v1/contents/[contentId]
-GET /api/v1/rating/[contentId]
-GET /api/v1/rating/?contentId=[contentId]&userId=[userId]
-POST /api/v1/rating/
+Get all users
+- GET /api/v1/users/
+ 
+Get single user   
+- GET /api/v1/users/[userId]
+ 
+Get all contents
+- GET /api/v1/contents/
+ 
+Get single content by content Id
+- GET /api/v1/contents/[contentId]
+ 
+Get single content by contend Id ( requirement )
+- GET /api/v1/rating/[contentId]
+ 
+Get a single rating based on content Id and user Id
+- GET /api/v1/rating/?contentId=[contentId]&userId=[userId]
+ 
+ Post a rating ( requirement )
+- POST /api/v1/rating/
 
 ```
+
+### Appropriate Error Handling
+ - Failed requests returns appropriate HTTP error codes.
+
 
 ## Front End
 
@@ -88,9 +98,9 @@ POST /api/v1/rating/
  - styled-components
  
  
-##Use Cases
+###Design
 
-Application starts up at the content browsing page. 
+Application starts up loading the content browsing page. 
 
 On the top left corner, user can switch user accounts. Multiple accounts seeded to demonstrate the use case where an user has already rated a movie before. 
 Movies are presented in a wide horizontal panel which is scrollable by clicking the Left (<) and Right(>) buttons.
@@ -99,9 +109,14 @@ When user hovers over a movie, a play icon should appear. User can click on the 
 a pop up will appear for user to give a rating from 1 to 5 stars. If user has rated before, the pop up will mention it and prevent user from rating.
 Try different user and movie combinations! Data is seeded randomly. 
 
-Each movie thumbnail on the browsing page also presents users a button to give a rating. This is intended for users to decide to other times.
+Each movie thumbnail on the browsing page also presents users a button to give a rating. This is intended for users to decide to rate other times.
 
 After giving a rating, the average will be shown on the same pop up.
+
+### Appropriate Error Handling
+ - When server is down, main page displays message that 'Service is down'.
+ - When user submits a rating and fail, the pop up modal will say submit failed.
+ - Input error message appears when user tries to submit 0 stars.
 
  
 ## Test
@@ -110,6 +125,7 @@ After giving a rating, the average will be shown on the same pop up.
   - Supertest
   - AVA
   - Enzyme
+  
   
  ###To run tests
  ```
@@ -127,7 +143,7 @@ After giving a rating, the average will be shown on the same pop up.
  
  
 ##Future Improvements
- More testing especially the behavious UI aspect.
+ More testing especially the behavioural aspect of the UI.
  
  
 ## Author
