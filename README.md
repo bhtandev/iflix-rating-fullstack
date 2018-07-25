@@ -49,16 +49,46 @@ npm run client
  - Node.js
  - Express
 
-
-`mongodb-memory-server` is used to quickly spin up a actual/real MongoDB Server programmatically from node for testing and demonstration purpose. 
-For production, a full scale MongoDB will be used instead. 
-
-Fake data is be seeded for demonstration purposes. 
-
-
 ### Design
 
-Basically there are 3 models, the User, the Content and the Rating. Data of each model are consumed from the following API endpoints below.
+`mongodb-memory-server` is used to quickly spin up a actual/real MongoDB Server programmatically from node for testing and *demonstration* purpose. 
+
+Basically there are 3 models, the User, the Content and the Rating.
+
+Content Schema
+```
+{
+   _id : ....,
+   title: ....,
+   ....
+   rateCount : 0,
+   rateValue : 0,
+   average: 0
+}
+```
+
+Rating Schema
+```
+{
+    _id: ....,
+    userId: ....,
+    contentId:....,
+    value: ..., 
+    dateAdded:....   
+}
+```
+
+`userId` and `contentId` properties are set with index to true to allow 
+quick find on whether aa user has rated a content before or not.
+
+If a content has not been rated before by a particular user, the new rating document to Rating collection will be 
+inserted and the content will be updated on the properties `rateCount` and `rateValue`. 
+The average is calculated here (`project requirement`) although the client can make use of the `rateValue` and `rateCount` to get the average as well, thus saving
+another operation on the server side.  
+
+Fake data is seeded for demonstration purposes. 
+
+Data of each model are consumed from the following API endpoints below.
 
 #### API Endpoints
 ```
@@ -74,18 +104,18 @@ Get all contents
 Get single content by content Id
 - GET /api/v1/contents/[contentId]
  
-Get single content by contend Id ( requirement )
+Get single content by contend Id ( project requirement )
 - GET /api/v1/rating/[contentId]
  
 Get a single rating based on content Id and user Id
 - GET /api/v1/rating/?contentId=[contentId]&userId=[userId]
  
-Post a rating ( requirement )
+Post a rating ( project requirement )
 - POST /api/v1/rating/
 
 ```
 
-### Appropriate Error Handling
+#### Appropriate Error Handling
  - Failed requests return appropriate HTTP error codes.
 
 
@@ -100,9 +130,10 @@ Post a rating ( requirement )
 ### Design
 
 
-Application starts up loading the content browsing page. 
+For demonstration purposes, application starts up loading the content browsing page with account owner already logged in.
+Multiple account users seeded to demonstrate the use case on whether an user has already rated a movie before. ( `project requirement`) 
 
-On the top left corner, user can switch user accounts. Multiple accounts seeded to demonstrate the use case where an user has already rated a movie before. 
+On the top left corner, there is a drop down where user can switch account users.  
 Movies are presented in a wide horizontal panel which is scrollable by clicking the Left (<) and Right(>) buttons.
 
 When user hovers over a movie, a play icon should appear. User can click on the movie to watch it. Once the play ends (about 3 secs),

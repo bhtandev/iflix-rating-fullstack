@@ -5,7 +5,7 @@ import {Switch, Route} from 'react-router-dom';
 import styled from 'styled-components';
 
 import { fetchUsers, setCurrentUser } from '../Users/UserActions';
-import { getUsers } from '../Users/UserReducer';
+import { getUsers, getCurrentUser } from '../Users/UserReducer';
 
 import Dropdown from 'react-dropdown'
 import ResponsiveContainer from '../../components/ResponsiveContainer';
@@ -36,6 +36,7 @@ export class App extends Component {
   static propTypes = {
     dispatch: PropTypes.func,
     users: PropTypes.array,
+    currentUser: PropTypes.object,
   };
 
   componentDidMount(){
@@ -63,7 +64,7 @@ export class App extends Component {
   };
 
   render() {
-    const { users, history } = this.props;
+    const { users, history, currentUser } = this.props;
 
     const options = users? users.map((user)=> {
       return {
@@ -72,7 +73,9 @@ export class App extends Component {
       };
     }) : [];
 
-    const defaultOption = (users && users.length)? options[0] : [];
+    // console.log('currentUser', currentUser);
+
+    const defaultOption = (users && users.length)? options.filter(option => option.value === currentUser._id)[0] : [];
 
     return (
       <AppContainer id="app">
@@ -103,7 +106,8 @@ export class App extends Component {
 
 function mapStateToProps(state) {
   return {
-    users: getUsers(state)
+    users: getUsers(state),
+    currentUser: getCurrentUser(state)
   }
 }
 
