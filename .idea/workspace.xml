@@ -5,9 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/server/models/__tests__/content.spec.js" description="test.before(async (t) =&gt; {&#10;  // This runs before a..." line="43" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d95e1124-1252-45dc-911c-8c2d73cb45e9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="d95e1124-1252-45dc-911c-8c2d73cb45e9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -382,12 +380,12 @@
       <workItem from="1532474262040" duration="27096000" />
       <workItem from="1532512117873" duration="20824000" />
       <workItem from="1532533294182" duration="738000" />
-      <workItem from="1532534289596" duration="1999000" />
+      <workItem from="1532534289596" duration="2143000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176469000" />
+    <option name="totallyTimeSpent" value="176613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="-4" width="1873" height="972" extended-state="6" />

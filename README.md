@@ -97,7 +97,7 @@ Post a rating ( requirement )
  - styled-components
  
  
-###Design
+### Design
 
 
 Application starts up loading the content browsing page. 
@@ -128,7 +128,7 @@ After giving a rating, the average will be shown on the same pop up.
   
   
 
-###To run tests
+### To run tests
 
 
  ```
@@ -145,10 +145,10 @@ After giving a rating, the average will be shown on the same pop up.
  Behaviour tests including clicking buttons were done manually unfortunately. 
  
  
-##Future Improvements
+## Future Improvements
 
 
-More testing especially the behavioural aspect of the UI.
+ - More testing especially the behavioural aspect of the UI.
  
  
 ## Screenshots
