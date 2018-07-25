@@ -106,8 +106,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="613">
-                <caret line="154" column="55" lean-forward="false" selection-start-line="154" selection-start-column="55" selection-end-line="154" selection-end-column="55" />
+              <first_editor relative-caret-position="-317">
+                <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -293,6 +293,11 @@
             <path>
               <item name="iflix-fullstack" type="b2602c69:ProjectViewProjectNode" />
               <item name="iflix-fullstack" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iflix-fullstack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iflix-fullstack" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -377,12 +382,12 @@
       <workItem from="1532474262040" duration="27096000" />
       <workItem from="1532512117873" duration="20824000" />
       <workItem from="1532533294182" duration="738000" />
-      <workItem from="1532534289596" duration="1819000" />
+      <workItem from="1532534289596" duration="1999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176289000" />
+    <option name="totallyTimeSpent" value="176469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="-4" width="1873" height="972" extended-state="6" />
@@ -727,8 +732,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="613">
-            <caret line="154" column="55" lean-forward="false" selection-start-line="154" selection-start-column="55" selection-end-line="154" selection-end-column="55" />
+          <first_editor relative-caret-position="-317">
+            <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
             <folding />
           </first_editor>
           <second_editor />

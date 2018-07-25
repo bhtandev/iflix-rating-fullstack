@@ -99,6 +99,7 @@ Post a rating ( requirement )
  
 ###Design
 
+
 Application starts up loading the content browsing page. 
 
 On the top left corner, user can switch user accounts. Multiple accounts seeded to demonstrate the use case where an user has already rated a movie before. 
@@ -129,6 +130,7 @@ After giving a rating, the average will be shown on the same pop up.
 
 ###To run tests
 
+
  ```
  npm test
  ```
@@ -145,12 +147,14 @@ After giving a rating, the average will be shown on the same pop up.
  
 ##Future Improvements
 
- More testing especially the behavioural aspect of the UI.
+
+More testing especially the behavioural aspect of the UI.
  
  
 ## Screenshots
 
 ![alt text](screenshots/browsepage.png "Browsing Page") 
+
 
 ![alt text](screenshots/movieplaying.png "Movie Playing Page") 
  
