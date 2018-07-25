@@ -1,0 +1,93 @@
+{
+  "name": "iFlixRating",
+  "version": "1.0.0",
+  "description": "iFlix Rating",
+  "main": "src/server/index.js",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "build": "webpack --mode production",
+    "client": "webpack-dev-server --mode development --devtool inline-source-map --hot",
+    "server": "nodemon src/server/index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "ENVIRONMENT=test ava"
+  },
+  "author": "Boon Hui Tan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "moment": "^2.22.2",
+    "mongoose": "^5.2.4",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-dropdown": "^1.5.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-star-ratings": "^2.3.0",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^3.3.3",
+    "velocity": "^0.7.2",
+    "velocity-animate": "^2.0.5",
+    "velocity-react": "^1.4.1"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "browser-env": "^3.2.5",
+    "clean-webpack-plugin": "^0.1.19",
+    "concurrently": "^3.5.1",
+    "css-loader": "^0.28.11",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^5.0.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "ignore-styles": "^5.0.1",
+    "jsdom": "11.11.0",
+    "jsdom-global": "^3.0.2",
+    "mongodb-memory-server": "^1.9.0",
+    "nodemon": "^1.17.3",
+    "redux-ava": "^2.2.0",
+    "redux-mock-store": "^1.5.3",
+    "sinon": "^6.1.4",
+    "style-loader": "^0.21.0",
+    "supertest": "^3.1.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.3"
+  },
+  "ava": {
+    "files": [
+      "src/**/*.spec.js"
+    ],
+    "source": [
+      "src/**/*.js"
+    ],
+    "require": [
+      "babel-register",
+      "babel-polyfill",
+      "./src/client/config/helpers/browser-env.js",
+      "ignore-styles"
+    ],
+    "babel": "inherit",
+    "failFast": false,
+    "serial": true,
+    "verbose": true
+  }
+}

@@ -1,0 +1,25 @@
+.movie-scene {
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("./iflixLogoMain.png");
+}
+
+/**
+To make the movie play screen responsive
+ */
+@media screen and (max-width: 425px) {
+    .content-title-box {
+        display: none !important;
+    }
+
+    .movie-scene {
+        max-height: 425px;
+        -webkit-background-size:100%;
+        -moz-background-size:100%;
+        -o-background-size:100%;
+        background-size:100%;
+    }
+}
