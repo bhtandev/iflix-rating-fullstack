@@ -37,7 +37,7 @@ Console should read like this:
     Server ready!
 
 
-#Start front app once seeding is complete
+#Start client once seeding is complete
 npm run client
 ```
 
