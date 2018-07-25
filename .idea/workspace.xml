@@ -106,8 +106,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="585">
-                <caret line="39" column="38" lean-forward="false" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+              <first_editor relative-caret-position="643">
+                <caret line="149" column="56" lean-forward="false" selection-start-line="149" selection-start-column="56" selection-end-line="149" selection-end-column="56" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -282,191 +282,18 @@
         <subPane>
           <expand>
             <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
+              <item name="iflix-fullstack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iflix-fullstack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
+              <item name="iflix-fullstack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iflix-fullstack" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
+              <item name="iflix-fullstack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iflix-fullstack" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="Contents" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="Contents" type="462c0819:PsiDirectoryNode" />
-              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="Contents" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="Contents" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="Contents" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="Ratings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-              <item name="ratings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-react-full-stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-react-full-stack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -486,16 +313,16 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/client/modules/Contents/pages" />
-      <recent name="$PROJECT_DIR$/src/client/modules/Users/__tests__" />
-      <recent name="$PROJECT_DIR$/src/server/api/v1/users" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/server/tests/helpers" />
       <recent name="$PROJECT_DIR$/src/server/models/__tests__" />
       <recent name="$PROJECT_DIR$/src/server/dev" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/client/modules/Contents/pages" />
+      <recent name="$PROJECT_DIR$/src/client/modules/Users/__tests__" />
+      <recent name="$PROJECT_DIR$/src/server/api/v1/users" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -550,12 +377,12 @@
       <workItem from="1532474262040" duration="27096000" />
       <workItem from="1532512117873" duration="20824000" />
       <workItem from="1532533294182" duration="738000" />
-      <workItem from="1532534289596" duration="752000" />
+      <workItem from="1532534289596" duration="1387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175222000" />
+    <option name="totallyTimeSpent" value="175857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="-4" width="1873" height="972" extended-state="6" />
@@ -900,8 +727,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="585">
-            <caret line="39" column="38" lean-forward="false" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+          <first_editor relative-caret-position="643">
+            <caret line="149" column="56" lean-forward="false" selection-start-line="149" selection-start-column="56" selection-end-line="149" selection-end-column="56" />
             <folding />
           </first_editor>
           <second_editor />

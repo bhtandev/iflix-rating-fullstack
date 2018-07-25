@@ -37,7 +37,7 @@ Console should read like this:
     Server ready!
 
 
-#Start client once seeding is complete
+#Start client once seeding is complete  
 npm run client
 ```
 
@@ -144,6 +144,10 @@ After giving a rating, the average will be shown on the same pop up.
 ##Future Improvements
  More testing especially the behavioural aspect of the UI.
  
+ 
+## Screenshots
+
+![alt text](screenshots/iflixLogoMain.png "Browsing Page") 
  
 ## Author
 
