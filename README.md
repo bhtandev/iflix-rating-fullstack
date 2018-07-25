@@ -71,15 +71,14 @@ Rating Schema
 ```
 {
     _id: ....,
-    userId: ....,
-    contentId:....,
-    value: ..., 
-    dateAdded:....   
+    userId: ...., index:true,
+    contentId:...., index: true,
+    value: ...,    
 }
 ```
 
 `userId` and `contentId` properties are set with index to true to allow 
-quick find on whether aa user has rated a content before or not.
+quick find on whether an user has rated a content before or not.
 
 If a content has not been rated before by a particular user, the new rating document to Rating collection will be 
 inserted and the content will be updated on the properties `rateCount` and `rateValue`. 
@@ -131,7 +130,7 @@ Post a rating ( project requirement )
 
 
 For demonstration purposes, application starts up loading the content browsing page with account owner already logged in.
-Multiple account users seeded to demonstrate the use case on whether an user has already rated a movie before. ( `project requirement`) 
+Multiple account's users seeded to demonstrate the use case on whether an user has already rated a movie before. ( `project requirement`) 
 
 On the top left corner, there is a drop down where user can switch account users.  
 Movies are presented in a wide horizontal panel which is scrollable by clicking the Left (<) and Right(>) buttons.
@@ -166,14 +165,14 @@ After giving a rating, the average will be shown on the same pop up.
  npm test
  ```
  
- This does not test everything due to time constraints. 
+ Project does not have tests for everything due to time constraints. 
  
- `Back End` The crucial part, API calls were targeted on the back end.
- TDD approach was used on the back end API calls, writing up the test first then implementing the route controllers.
+ `Back End` The crucial the API calls, were targeted on the back end.
+ TDD approach was used on the back end API calls, writing up the tests first then implementing the route controllers.
  
- `Front End` Tests were written after implementation. Tests were written for the Redux reducers and actions.
- The UI component tests are very limited, only a couple of validation that elements exist. 
- Behaviour tests including clicking buttons were done manually unfortunately. 
+ `Front End` Tests were written after implementation. Tests were mostly written for the Redux reducers and actions.
+ The UI component tests are very limited, only a couple of validation that certain expected elements must exist. 
+ Behavioural tests including clicking buttons were done manually unfortunately. 
  
  
 ## Future Improvements
