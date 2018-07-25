@@ -42,7 +42,6 @@ npm run client
 ```
 
 
-
 ## Back End
 
 ### Technologies
@@ -81,13 +80,13 @@ Get single content by contend Id ( requirement )
 Get a single rating based on content Id and user Id
 - GET /api/v1/rating/?contentId=[contentId]&userId=[userId]
  
- Post a rating ( requirement )
+Post a rating ( requirement )
 - POST /api/v1/rating/
 
 ```
 
 ### Appropriate Error Handling
- - Failed requests returns appropriate HTTP error codes.
+ - Failed requests return appropriate HTTP error codes.
 
 
 ## Front End
@@ -121,13 +120,13 @@ After giving a rating, the average will be shown on the same pop up.
  
 ## Test
  
- ### Technologies
+### Technologies
   - Supertest
   - AVA
   - Enzyme
   
   
- ###To run tests
+###To run tests
  ```
  npm test
  ```
